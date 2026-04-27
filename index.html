@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NeuroBloom – Konuşmak Her Çocuğun Hakkı</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="logo">
+        <span class="logo-icon">🌸</span>
+        <span class="logo-text">NeuroBloom</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#how">Nasıl Çalışır?</a></li>
+        <li><a href="#features">Özellikler</a></li>
+        <li><a href="#team">Ekip</a></li>
+        <li><a href="#contact" class="nav-cta">İletişim</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menüyü Aç">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#how">Nasıl Çalışır?</a>
+      <a href="#features">Özellikler</a>
+      <a href="#team">Ekip</a>
+      <a href="#contact">İletişim</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+      <div class="grid-overlay"></div>
+    </div>
+    <div class="hero-content reveal">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Yapay Zeka Destekli Konuşma Terapisi
+      </div>
+      <h1 class="hero-title">
+        Konuşmak<br />
+        <span class="gradient-text">Her Çocuğun</span><br />
+        Hakkı
+      </h1>
+      <p class="hero-sub">
+        NeuroBloom, çocukluk çağı konuşma apraksisiyle (CAS) yaşayan çocukların
+        konuşma becerilerini oyun tabanlı egzersizler ve yapay zeka arkadaşı
+        <strong>NeuroBot</strong> ile geliştiren bir mobil uygulamadır.
+      </p>
+      <div class="hero-actions">
+        <a href="#how" class="btn btn-primary">Daha Fazla Öğren</a>
+        <a href="#features" class="btn btn-ghost">Özellikleri Keşfet</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num">13+</span>
+          <span class="stat-label">Egzersiz Türü</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">%94</span>
+          <span class="stat-label">Ebeveyn Memnuniyeti</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">AI</span>
+          <span class="stat-label">Destekli Klinik Yaklaşım</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-visual reveal reveal-right">
+      <div class="phone-mockup">
+        <div class="phone-frame">
+          <div class="phone-screen">
+            <div class="app-header">
+              <div class="app-time">09:41</div>
+              <div class="app-icons">▪▪▪</div>
+            </div>
+            <div class="neurobot-card">
+              <div class="neurobot-avatar">
+                <div class="bot-face">
+                  <div class="bot-eyes">
+                    <div class="bot-eye"></div>
+                    <div class="bot-eye"></div>
+                  </div>
+                  <div class="bot-mouth"></div>
+                </div>
+                <div class="bot-glow"></div>
+              </div>
+              <div class="bot-speech">
+                <p>Merhaba! Ben NeuroBot 👋</p>
+                <p>Bugün birlikte oynayalım!</p>
+              </div>
+            </div>
+            <div class="game-card">
+              <div class="game-label">🎮 Günlük Görev</div>
+              <div class="game-title">"Ba-Ba-Ba" Ritmi</div>
+              <div class="progress-bar">
+                <div class="progress-fill"></div>
+              </div>
+              <div class="progress-text">4/5 tamamlandı</div>
+            </div>
+            <div class="xp-card">
+              <span>⭐ +50 XP Kazandın!</span>
+            </div>
+          </div>
+        </div>
+        <div class="phone-shine"></div>
+      </div>
+      <div class="floating-badge fb-1">🏆 Günlük Seri: 7 Gün!</div>
+      <div class="floating-badge fb-2">🎯 %80 Doğruluk</div>
+      <div class="floating-badge fb-3">💜 NeuroBot Seninle!</div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="section how" id="how">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-tag">Nasıl Çalışır?</div>
+        <h2 class="section-title">Üç Adımda <span class="gradient-text">Konuşma Yolculuğu</span></h2>
+        <p class="section-sub">NeuroBloom, klinik tabanlı bir yaklaşımı eğlenceli bir deneyime dönüştürür.</p>
+      </div>
+      <div class="steps">
+        <div class="step reveal">
+          <div class="step-num">01</div>
+          <div class="step-icon">🤖</div>
+          <h3>NeuroBot ile Tanış</h3>
+          <p>Çocuğunuz, kişiselleştirilmiş bir profil oluşturur. NeuroBot, çocuğun seviyesini ve ilgi alanlarını öğrenir; her seferinde biraz daha iyi bir arkadaş olur.</p>
+        </div>
+        <div class="step-connector reveal">
+          <div class="connector-line"></div>
+          <div class="connector-dot"></div>
+        </div>
+        <div class="step reveal">
+          <div class="step-num">02</div>
+          <div class="step-icon">🎮</div>
+          <h3>Oyunlarla Pratik Yap</h3>
+          <p>Etkileşimli konuşma oyunları, ses taklidi ve ritim egzersizleri aracılığıyla çocuklar farkında olmadan terapötik çalışmalar yapıyor.</p>
+        </div>
+        <div class="step-connector reveal">
+          <div class="connector-line"></div>
+          <div class="connector-dot"></div>
+        </div>
+        <div class="step reveal">
+          <div class="step-num">03</div>
+          <div class="step-icon">📈</div>
+          <h3>İlerlemeyi Takip Et</h3>
+          <p>Ebeveynler ve terapistler detaylı ilerleme raporlarına ulaşabilir. Yapay zeka, çocuğun performansına göre zorluk seviyesini otomatik olarak ayarlar.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="section features" id="features">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-tag">Özellikler</div>
+        <h2 class="section-title">Güçlü Araçlar, <span class="gradient-text">Sevecen Deneyim</span></h2>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card feature-large reveal">
+          <div class="feature-icon-wrap">🧠</div>
+          <h3>Kişiselleştirilmiş Öğrenme</h3>
+          <p>Her çocuk farklıdır. NeuroBloom'un yapay zekası, bireysel öğrenme hızına ve stiline uygun bir yol haritası oluşturur. Hiçbir seans bir diğeriyle aynı değil.</p>
+          <div class="feature-tag">AI Destekli</div>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon-wrap">🎯</div>
+          <h3>Oyunlaştırma</h3>
+          <p>Rozetler, XP puanları ve günlük seriler sayesinde çocuklar her gün geri dönmek ister.</p>
+          <div class="feature-tag">Motivasyon</div>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon-wrap">♿</div>
+          <h3>Erişilebilirlik</h3>
+          <p>Özel eğitim ihtiyaçları düşünülerek tasarlandı. Büyük butonlar, net sesler ve sade arayüz.</p>
+          <div class="feature-tag">Kapsayıcı</div>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon-wrap">🏥</div>
+          <h3>Klinik Tabanlı Yaklaşım</h3>
+          <p>Egzersizler, kanıta dayalı konuşma terapisi yöntemleriyle tasarlandı. Uzman denetiminde geliştirildi.</p>
+          <div class="feature-tag">Bilimsel</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BENEFITS -->
+  <section class="section benefits" id="benefits">
+    <div class="container">
+      <div class="benefits-inner">
+        <div class="benefits-text reveal">
+          <div class="section-tag">Faydalar</div>
+          <h2 class="section-title">Çocuğunuzun <span class="gradient-text">Dönüşümünü</span> İzleyin</h2>
+          <p class="section-sub">NeuroBloom yalnızca bir uygulama değil; çocuğunuzun özgüvenini ve iletişim becerisini inşa eden bir yolculuk arkadaşı.</p>
+          <div class="benefit-list">
+            <div class="benefit-item">
+              <div class="benefit-check">✓</div>
+              <div>
+                <strong>Konuşma Özgüvenini Artırır</strong>
+                <p>Çocuklar başarı hissederek konuşmaya olan korkularını aşar.</p>
+              </div>
+            </div>
+            <div class="benefit-item">
+              <div class="benefit-check">✓</div>
+              <div>
+                <strong>Erken Gelişimi Destekler</strong>
+                <p>Erken müdahale, uzun vadeli konuşma başarısını önemli ölçüde artırır.</p>
+              </div>
+            </div>
+            <div class="benefit-item">
+              <div class="benefit-check">✓</div>
+              <div>
+                <strong>Terapiyi Eğlenceli Kılar</strong>
+                <p>Günde 10-15 dakika oyun oynarcasına terapi — kliniğe gitmeden.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="benefits-visual reveal reveal-right">
+          <div class="benefit-card-stack">
+            <div class="benefit-floating-card bfc-1">
+              <div class="bfc-icon">🌟</div>
+              <div class="bfc-text">
+                <strong>Harika iş!</strong>
+                <span>Ali bugün 5/5 tamamladı</span>
+              </div>
+            </div>
+            <div class="benefit-floating-card bfc-2">
+              <div class="bfc-icon">📊</div>
+              <div class="bfc-text">
+                <strong>Haftalık İlerleme</strong>
+                <span>+18% doğruluk artışı</span>
+              </div>
+            </div>
+            <div class="benefit-floating-card bfc-3">
+              <div class="bfc-icon">💬</div>
+              <div class="bfc-text">
+                <strong>NeuroBot diyor ki:</strong>
+                <span>"Bugün çok güzel çalıştık!"</span>
+              </div>
+            </div>
+            <div class="benefit-bg-shape"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FUTURE VISION -->
+  <section class="section vision" id="vision">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-tag">Gelecek Vizyonu</div>
+        <h2 class="section-title">Daha Fazla Çocuğa, <span class="gradient-text">Daha Fazla Umut</span></h2>
+      </div>
+      <div class="vision-grid">
+        <div class="vision-card reveal">
+          <div class="vision-icon">🚀</div>
+          <h3>Genişleyen Yapay Zeka</h3>
+          <p>NeuroBot'un dil modeli sürekli gelişiyor. Yakında daha akıllı geri bildirimler, duygusal zeka ve sesli etkileşim.</p>
+        </div>
+        <div class="vision-card reveal">
+          <div class="vision-icon">🌍</div>
+          <h3>Daha Fazla Konuşma Bozukluğu</h3>
+          <p>CAS'ın ötesinde kekemelik, artikülasyon bozuklukları ve dil gecikmesi için de destek planlanıyor.</p>
+        </div>
+        <div class="vision-card reveal">
+          <div class="vision-icon">🤝</div>
+          <h3>Küresel Erişim</h3>
+          <p>Çok dil desteği ve düşük bant genişliği modu ile dünyanın her köşesindeki çocuğa ulaşmak hedefleniyor.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM -->
+  <section class="section team" id="team">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-tag">Ekibimiz</div>
+        <h2 class="section-title">NeuroBloom'un Arkasındaki <span class="gradient-text">İnsanlar</span></h2>
+        <p class="section-sub">Teknolojiyi ve empatiyi bir araya getiren tutkulu bir ekip.</p>
+      </div>
+      <div class="team-grid">
+        <div class="team-card reveal">
+          <div class="team-avatar ta-1">MC</div>
+          <div class="team-info">
+            <h3>Melisa Çöpür</h3>
+            <div class="team-role">Takım Lideri · Yazılım & Oyun Geliştirici</div>
+            <p>NeuroBloom'un mimarisini ve oyun motorunu yöneten vizyoner lider.</p>
+          </div>
+          <div class="team-glow tg-1"></div>
+        </div>
+        <div class="team-card reveal">
+          <div class="team-avatar ta-2">NT</div>
+          <div class="team-info">
+            <h3>Nisanur Turak</h3>
+            <div class="team-role">UI/UX Tasarımcı</div>
+            <p>Çocuklara yönelik sezgisel ve sıcak arayüzlerin arkasındaki yaratıcı zihin.</p>
+          </div>
+          <div class="team-glow tg-2"></div>
+        </div>
+        <div class="team-card reveal">
+          <div class="team-avatar ta-3">EE</div>
+          <div class="team-info">
+            <h3>Ecrin Eriha Şahin</h3>
+            <div class="team-role">Araştırmacı</div>
+            <p>Klinik tabanlı içeriklerin bilimsel temelini oluşturan araştırma uzmanı.</p>
+          </div>
+          <div class="team-glow tg-3"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="contact-inner reveal">
+        <div class="contact-text">
+          <div class="section-tag">İletişim</div>
+          <h2 class="section-title">Birlikte <span class="gradient-text">Konuşalım</span></h2>
+          <p>NeuroBloom hakkında daha fazla bilgi almak, pilot programa katılmak veya iş birliği yapmak için bize ulaşın.</p>
+          <div class="contact-info">
+            <div class="contact-item">
+              <span class="contact-icon">📧</span>
+              <span>hello@neurobloom.app</span>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">📍</span>
+              <span>İstanbul, Türkiye</span>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form-placeholder">
+          <div class="form-field">
+            <label>Adınız</label>
+            <div class="form-input-mock">Adınızı girin...</div>
+          </div>
+          <div class="form-field">
+            <label>E-posta</label>
+            <div class="form-input-mock">email@ornek.com</div>
+          </div>
+          <div class="form-field">
+            <label>Mesajınız</label>
+            <div class="form-input-mock textarea-mock">Mesajınızı buraya yazın...</div>
+          </div>
+          <button class="btn btn-primary" style="width:100%;">Mesaj Gönder 💌</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <span class="logo-icon">🌸</span>
+          <span class="logo-text">NeuroBloom</span>
+          <p>Konuşmak her çocuğun hakkı.</p>
+        </div>
+        <div class="footer-links">
+          <a href="#how">Nasıl Çalışır?</a>
+          <a href="#features">Özellikler</a>
+          <a href="#team">Ekip</a>
+          <a href="#contact">İletişim</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 NeuroBloom. Tüm hakları saklıdır. 💜 İstanbul'dan sevgiyle yapıldı.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
